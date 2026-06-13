@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+.tauri/
+src-tauri/target/
+src-tauri/gen/
+target/
+
+# Distributable installers (build artifacts — use GitHub Releases instead)
+deployments/
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.local
+.idea/
+.vscode/

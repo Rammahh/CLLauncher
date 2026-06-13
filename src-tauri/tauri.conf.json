@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "CLLauncher",
+  "version": "2.0.0",
+  "identifier": "org.craftersland.launcher",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "CLLauncher",
+        "width": 1200,
+        "height": 760,
+        "minWidth": 900,
+        "minHeight": 620,
+        "resizable": true,
+        "fullscreen": false,
+        "decorations": false,
+        "shadow": true,
+        "transparent": false,
+        "center": true,
+        "visible": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; img-src 'self' asset: https: data:; connect-src 'self' https://apiv1.clbackend.net https://login.microsoftonline.com https://login.live.com https://user.auth.xboxlive.com https://xsts.auth.xboxlive.com https://api.minecraftservices.com https://launchermeta.mojang.com https://piston-meta.mojang.com https://resources.download.minecraft.net https://libraries.minecraft.net https://files.minecraftforge.net https://maven.minecraftforge.net https://meta.fabricmc.net https://maven.fabricmc.net https://meta.quiltmc.org https://maven.neoforged.net; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "resources": [],
+    "externalBin": [],
+    "copyright": "© 2024 CraftersLand",
+    "category": "Game",
+    "shortDescription": "CraftersLand Modpack Launcher",
+    "longDescription": "A production-ready desktop Minecraft modpack launcher for CraftersLand.",
+    "windows": {
+      "certificateThumbprint": null,
+      "digestAlgorithm": "sha256",
+      "timestampUrl": ""
+    },
+    "linux": {
+      "deb": {
+        "depends": []
+      },
+      "rpm": {
+        "depends": []
+      }
+    },
+    "macOS": {
+      "frameworks": [],
+      "signingIdentity": null,
+      "providerShortName": null
+    }
+  },
+  "plugins": {
+    "shell": {
+      "open": true
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "survivalplus",
+    "name": "SurvivalPlus",
+    "slug": "survivalplus",
+    "description": "A curated survival experience with quality-of-life mods, enhanced world generation, and performance improvements.",
+    "iconUrl": "https://apiv1.clbackend.net/assets/packs/survivalplus/icon.png",
+    "bannerUrl": "https://apiv1.clbackend.net/assets/packs/survivalplus/banner.png",
+    "mcVersion": "1.20.1",
+    "loader": "fabric",
+    "loaderVersion": "0.15.7",
+    "latestVersion": "3.2.1",
+    "recommendedRam": 4096,
+    "minRam": 2048,
+    "tags": ["Survival", "QoL"],
+    "categories": ["Survival", "Quality of Life"],
+    "featured": true,
+    "status": "active"
+  },
+  {
+    "id": "skyblock-reborn",
+    "name": "SkyBlock Reborn",
+    "slug": "skyblock-reborn",
+    "description": "The classic SkyBlock experience rebuilt from the ground up with custom islands, quests, and economy.",
+    "iconUrl": "https://apiv1.clbackend.net/assets/packs/skyblock/icon.png",
+    "bannerUrl": null,
+    "mcVersion": "1.20.4",
+    "loader": "forge",
+    "loaderVersion": "49.0.31",
+    "latestVersion": "1.0.5",
+    "recommendedRam": 3072,
+    "minRam": 2048,
+    "tags": ["SkyBlock", "Economy"],
+    "categories": ["Skyblock", "Economy"],
+    "featured": false,
+    "status": "active"
+  }
+]

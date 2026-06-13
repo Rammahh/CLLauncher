@@ -1,0 +1,49 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Default capabilities for CLLauncher",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-minimize",
+    "core:window:allow-maximize",
+    "core:window:allow-unmaximize",
+    "core:window:allow-toggle-maximize",
+    "core:window:allow-close",
+    "core:window:allow-start-dragging",
+    "core:window:allow-is-maximized",
+    "shell:allow-open",
+    "fs:default",
+    "fs:allow-read-file",
+    "fs:allow-write-file",
+    "fs:allow-read-dir",
+    "fs:allow-create",
+    "fs:allow-remove",
+    "fs:allow-mkdir",
+    "fs:allow-exists",
+    "fs:allow-stat",
+    "opener:default",
+    "os:default",
+    {
+      "identifier": "http:default",
+      "allow": [
+        { "url": "https://apiv1.clbackend.net/**" },
+        { "url": "https://login.microsoftonline.com/**" },
+        { "url": "https://login.live.com/**" },
+        { "url": "https://user.auth.xboxlive.com/**" },
+        { "url": "https://xsts.auth.xboxlive.com/**" },
+        { "url": "https://api.minecraftservices.com/**" },
+        { "url": "https://launchermeta.mojang.com/**" },
+        { "url": "https://piston-meta.mojang.com/**" },
+        { "url": "https://resources.download.minecraft.net/**" },
+        { "url": "https://libraries.minecraft.net/**" },
+        { "url": "https://files.minecraftforge.net/**" },
+        { "url": "https://maven.minecraftforge.net/**" },
+        { "url": "https://meta.fabricmc.net/**" },
+        { "url": "https://maven.fabricmc.net/**" },
+        { "url": "https://meta.quiltmc.org/**" },
+        { "url": "https://maven.neoforged.net/**" }
+      ]
+    }
+  ]
+}

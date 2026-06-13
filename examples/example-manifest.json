@@ -1,0 +1,93 @@
+{
+  "packId": "survivalplus",
+  "versionId": "v3.2.1",
+  "version": "3.2.1",
+  "mcVersion": "1.20.1",
+  "loader": "fabric",
+  "loaderVersion": "0.15.7",
+  "requiredJava": 17,
+  "minRam": 2048,
+  "recommendedRam": 4096,
+  "jvmArgs": ["-XX:+UseG1GC", "-XX:MaxGCPauseMillis=50"],
+  "gameArgs": [],
+  "files": [
+    {
+      "path": "mods/fabric-api-0.92.0+1.20.1.jar",
+      "url": "https://apiv1.clbackend.net/files/survivalplus/v3.2.1/mods/fabric-api-0.92.0.jar",
+      "sha256": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+      "size": 3145728,
+      "type": "mod",
+      "side": "both",
+      "required": true,
+      "optional": false,
+      "action": "download",
+      "group": null,
+      "description": "Fabric API"
+    },
+    {
+      "path": "mods/sodium-mc1.20.1-0.5.8.jar",
+      "url": "https://apiv1.clbackend.net/files/survivalplus/v3.2.1/mods/sodium-mc1.20.1.jar",
+      "sha256": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+      "size": 2097152,
+      "type": "mod",
+      "side": "client",
+      "required": true,
+      "optional": false,
+      "action": "download",
+      "group": null,
+      "description": "Sodium renderer"
+    },
+    {
+      "path": "mods/xaeros-minimap-23.9.3-fabric.jar",
+      "url": "https://apiv1.clbackend.net/files/survivalplus/v3.2.1/mods/xaeros-minimap.jar",
+      "sha256": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+      "size": 1048576,
+      "type": "mod",
+      "side": "client",
+      "required": false,
+      "optional": true,
+      "action": "download",
+      "group": "Minimap",
+      "description": "Xaero's Minimap — a minimap with waypoints"
+    },
+    {
+      "path": "mods/iris-1.6.17+mc1.20.1.jar",
+      "url": "https://apiv1.clbackend.net/files/survivalplus/v3.2.1/mods/iris.jar",
+      "sha256": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+      "size": 4194304,
+      "type": "mod",
+      "side": "client",
+      "required": false,
+      "optional": true,
+      "action": "download",
+      "group": "Shaders",
+      "description": "Iris Shaders — shader support for Fabric"
+    },
+    {
+      "path": "config/fabric/fabric.cfg",
+      "url": "https://apiv1.clbackend.net/files/survivalplus/v3.2.1/config/fabric.cfg",
+      "sha256": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "size": 512,
+      "type": "config",
+      "side": "both",
+      "required": true,
+      "optional": false,
+      "action": "download",
+      "group": null,
+      "description": "Fabric configuration"
+    },
+    {
+      "path": "mods/old-sodium-0.4.jar",
+      "url": null,
+      "sha256": null,
+      "size": null,
+      "type": "mod",
+      "side": "client",
+      "required": false,
+      "optional": false,
+      "action": "delete",
+      "group": null,
+      "description": "Remove old Sodium version"
+    }
+  ]
+}
